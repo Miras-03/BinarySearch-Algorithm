@@ -3,7 +3,7 @@ namespace BinarySearchAlgorithm
 {
     class Program
     {
-        public static int BinarySearchAlgorithm(int[] array, int item)
+        private static int BinarySearchAlgorithm(int[] array, int item)
         {
             int lowValue = 0;
             int highValue = array.Length;
